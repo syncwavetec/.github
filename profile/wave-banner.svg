@@ -1,0 +1,51 @@
+<svg width="1200" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SyncWave">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0f1a"/>
+      <stop offset="100%" stop-color="#0d1424"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3AC3FF" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#3AC3FF" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3AC3FF" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="cyan2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5b7cfa" stop-opacity="0.10"/>
+      <stop offset="50%" stop-color="#3AC3FF" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#5b7cfa" stop-opacity="0.10"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="220" fill="url(#bg)"/>
+
+  <!-- Onda de fundo (mais lenta) -->
+  <path fill="none" stroke="url(#cyan2)" stroke-width="2" opacity="0.7">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite"
+      values="
+        M0,140 C200,100 400,180 600,140 C800,100 1000,180 1200,140;
+        M0,140 C200,180 400,100 600,140 C800,180 1000,100 1200,140;
+        M0,140 C200,100 400,180 600,140 C800,100 1000,180 1200,140"/>
+  </path>
+
+  <!-- Onda principal (ciano, mais rapida) -->
+  <path fill="none" stroke="url(#cyan)" stroke-width="3">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite"
+      values="
+        M0,160 C150,120 350,200 600,160 C850,120 1050,200 1200,160;
+        M0,160 C150,200 350,120 600,160 C850,200 1050,120 1200,160;
+        M0,160 C150,120 350,200 600,160 C850,120 1050,200 1200,160"/>
+  </path>
+
+  <!-- Onda de brilho fino (bem rapida) -->
+  <path fill="none" stroke="#3AC3FF" stroke-width="1.5" opacity="0.35">
+    <animate attributeName="d" dur="4.5s" repeatCount="indefinite"
+      values="
+        M0,175 C180,150 380,205 600,175 C820,150 1020,205 1200,175;
+        M0,175 C180,205 380,150 600,175 C820,205 1020,150 1200,175;
+        M0,175 C180,150 380,205 600,175 C820,150 1020,205 1200,175"/>
+  </path>
+
+  <!-- Titulo -->
+  <text x="600" y="95" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff" letter-spacing="2">SyncWave</text>
+  <text x="600" y="125" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="500" fill="#3AC3FF" letter-spacing="4">TECNOLOGIA · SEGURANÇA · OPERAÇÕES</text>
+</svg>
