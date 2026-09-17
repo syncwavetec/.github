@@ -1,8 +1,9 @@
-<h1 align="center">SyncWave</h1>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/syncwavetec/.github/main/profile/wave-banner.svg" alt="SyncWave — Tecnologia que protege e opera o seu negócio" width="100%" />
+</p>
 
 <p align="center">
-  <b>Tecnologia que protege e opera o seu negócio</b><br>
-  <sub>Segurança da Informação · Operações Técnicas em Campo</sub>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=1000&color=3AC3FF&center=true&vCenter=true&width=680&lines=Testes+de+Intrus%C3%A3o+(Pentest);Consultoria+em+Seguran%C3%A7a;Gest%C3%A3o+Inteligente+de+Incidentes;Opera%C3%A7%C3%B5es+T%C3%A9cnicas+em+Campo;Do+teste+de+intrus%C3%A3o+ao+laudo+entregue" alt="Frentes de atuação" />
 </p>
 
 <p align="center">
